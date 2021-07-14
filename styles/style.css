@@ -1,0 +1,156 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* Common style/ utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+
+h1{
+    color: #FFFFFF;
+    font-size:55px;
+}
+
+.orange-color{
+    color: orange;
+}
+/* Header Style */
+.header-bg{
+    position: absolute;
+    background-color: #2D25A0;
+    width: 1380px;
+    height: 677px;
+    left: 0px;
+    top: 0px;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 35px;
+    padding: 180px 106px 231px 152px;
+    margin-bottom: 231px;
+}
+
+.button-icon{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px 24px;
+}
+
+.watch-live{
+    padding-right: 4px;
+}
+
+.fa-arrow-right{
+   padding-left: 4px;
+}
+
+.banner img{
+    width: 556px;
+    height: 438px;
+    margin: 153px 141px 86px 0;
+}
+.banner:hover img{
+    transform: scale(1.2) skewy(10deg);
+    transition: transform 1s ease-in;
+}
+
+/* Players Style */
+.players{
+    margin-top: 743px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+    padding: 0 180px 0 160px;
+}
+
+.player{
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 40px gray;
+    padding: 15px;
+    margin
+}
+
+.player img{
+    width: 300px;
+    height: 256px;
+}
+
+.champhion-area{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    padding: 0px 180px 0px 160px;
+}
+
+.champhion-team{
+    padding-right: 20px;
+}
+
+.champhion-team img{
+    width: 556px;
+    height: 438px;
+}
+
+.champhion-title{
+    padding-left: 20px;
+}
+
+.champhion-title h1{
+    color: black;
+}
+
+/* Team Style */
+
+.copa-team{
+    margin-top: 70px;
+    padding: 0px 150px 0px 50px;
+    box-shadow: 10px 10px 40px gray;
+    margin: 50px;
+}
+.conmebol-team{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.team-title{
+    color: black;
+}
+
+.team img{
+    width: 300px;
+    height: 300px;
+}
+/* Footer Style */
+.footer-area{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.footer-logo img{
+    width: 483.87px;
+    height: 110px;
+}
+
+.social-icon .link{
+    margin: 20px 0px 20px 0px;
+}
+
+.circle-bg{
+    background-color: #9F9F9F;
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+    border-radius: 50%;
+    padding: 10px 10px 10px 10px;
+}
+
+/* Media Queries */
+
+/* Mobile Devices */
