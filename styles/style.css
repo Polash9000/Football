@@ -1,6 +1,9 @@
 /* Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 /* Common style/ utilities */
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
@@ -15,6 +18,7 @@ h1{
     color: orange;
 }
 /* Header Style */
+
 .header-bg{
     position: absolute;
     background-color: #2D25A0;
@@ -56,12 +60,14 @@ h1{
     height: 438px;
     margin: 153px 141px 86px 0;
 }
+
 .banner:hover img{
     transform: scale(1.2) skewy(10deg);
     transition: transform 1s ease-in;
 }
 
 /* Players Style */
+
 .players{
     margin-top: 743px;
     display: grid;
@@ -82,6 +88,8 @@ h1{
     width: 300px;
     height: 256px;
 }
+
+/* Champhion Style */
 
 .champhion-area{
     display: flex;
@@ -115,10 +123,12 @@ h1{
     box-shadow: 10px 10px 40px gray;
     margin: 50px;
 }
+
 .conmebol-team{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+
 .team-title{
     color: black;
 }
@@ -127,7 +137,9 @@ h1{
     width: 300px;
     height: 300px;
 }
+
 /* Footer Style */
+
 .footer-area{
     margin-top: 100px;
     text-align: center;
@@ -151,22 +163,29 @@ h1{
     padding: 10px 10px 10px 10px;
 }
 
-/* Media Queries */
+/* --------------
+  Media Queries 
+-------------- */
 
 /* Mobile Devices */
-@media only screen and (max-width:688px){
+
+@media only screen and (max-width:688px) {
+    
     .container{
         width: 100%;
         padding: 20px;
         margin-top: 30px;
     }
+
     .players, .champhion-area, .conmebol-team{
         margin: 30px;
         grid-template-columns: repeat(1, 0.5fr);
     }
+
     .players{
         margin-top: 800px;
     }
+
     .copa-team{
         margin-top: 100px;
     }
@@ -174,6 +193,7 @@ h1{
     .header-content, .champhion-area{
         flex-direction: column;
     }
+
     .header-bg{
         background-color: white;
         width: 100%;
@@ -186,15 +206,18 @@ h1{
         margin: 0px;
         padding: 0;
     }
+
     .banner img{
         width: 100%;
         height: 500%;
         margin-top: 50px;
     }
+
     .banner:hover img{
         transform: scale(1.2) skewy(8deg);
         transition: transform 1s ease-in;
     }
+
     .champhion-team, img{
         width: 330px;
         height: 330px;
@@ -205,19 +228,23 @@ h1{
 /* Tablet Devices */
 
 @media only screen and (min-width: 689px) and (max-width: 992px) {
+    
     .container{
         width: 100%;
         padding: 20px;
         margin-top: 30px;
         padding-right: 80px;
     }
+
     .players, .champhion-area, .conmebol-team{
         margin: 30px;
         grid-template-columns: repeat(2, 1fr);
     }
+
     .players{
         margin-top: 1100px;
     }
+
     .copa-team{
         margin-top: 100px;
     }
@@ -225,12 +252,14 @@ h1{
     .header-content, .champhion-area{
         flex-direction: column;
     }
+
     .header-bg{
         background-color: white;
         width: 100%;
         height: 800px;
         text-align: center;
     }
+
     .title, h1{
         color: black;
         font-size: 50px;
@@ -238,6 +267,7 @@ h1{
         padding: 0;
         padding-left: 50px;
     }
+
     .banner img{
         width: 80%;
         height: 300%;
@@ -245,18 +275,22 @@ h1{
         margin-left: 90px;
         padding-left: 50px;
     }
+
     .banner:hover img{
         transform: scale(1.2) skewy(8deg);
         transition: transform 1s ease-in;
     }
+
     .champhion-team, img{
         width: 330px;
         height: 330px;
     }
+
     .champhion-area{
         display: grid;
         margin-left: 50px;
         margin-right: 10px;
 
     }
+
 }
