@@ -94,7 +94,7 @@ h1{
     padding-right: 20px;
 }
 
-.champhion-team img{
+.champhion-team, img{
     width: 556px;
     height: 438px;
 }
@@ -154,3 +154,50 @@ h1{
 /* Media Queries */
 
 /* Mobile Devices */
+@media only screen and (max-width:688px){
+    .container{
+        width: 100%;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    .players, .champhion-area, .conmebol-team{
+        margin: 30px;
+        grid-template-columns: repeat(1, 0.5fr);
+    }
+    .players{
+        margin-top: 800px;
+    }
+    .copa-team{
+        margin-top: 100px;
+    }
+    
+    .header-content, .champhion-area{
+        flex-direction: column;
+    }
+    .header-bg{
+        background-color: white;
+        width: 100%;
+        height: 800px;
+    }
+    
+    .title, h1{
+        color: black;
+        font-size: 50px;
+        margin: 0px;
+        padding: 0;
+    }
+    .banner img{
+        width: 100%;
+        height: 500%;
+        margin-top: 50px;
+    }
+    .banner:hover img{
+        transform: scale(1.2) skewy(8deg);
+        transition: transform 1s ease-in;
+    }
+    .champhion-team, img{
+        width: 330px;
+        height: 330px;
+    }
+    
+}
